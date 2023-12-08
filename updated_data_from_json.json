@@ -1,0 +1,37 @@
+[
+    {
+        "nom": "Alice",
+        "age": 30,
+        "ville": "Paris"
+    },
+    {
+        "nom": "Bob",
+        "age": 25,
+        "ville": "Lyon"
+    },
+    {
+        "nom": "Charlie",
+        "age": 35,
+        "ville": "Marseille"
+    },
+    {
+        "nom": "FLORIAN",
+        "age": 22,
+        "ville": "MONTCUQ"
+    },
+    {
+        "nom": "MARC",
+        "age": 23,
+        "ville": "GLAND"
+    },
+    {
+        "nom": "STAN",
+        "age": 23,
+        "ville": "PARIS"
+    },
+    {
+        "nom": "Daniel",
+        "age": 41,
+        "ville": "Nice"
+    }
+]
