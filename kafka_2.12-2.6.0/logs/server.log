@@ -578,3 +578,4 @@ org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size =
 	at kafka.network.Processor.poll(SocketServer.scala:913)
 	at kafka.network.Processor.run(SocketServer.scala:816)
 	at java.base/java.lang.Thread.run(Thread.java:840)
+[2023-12-08 13:42:14,965] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
