@@ -1,0 +1,39 @@
+[2023-12-08T15:26:31.491+0000][gc] Using G1
+[2023-12-08T15:26:31.510+0000][gc,init] Version: 17.0.9+8-LTS (release)
+[2023-12-08T15:26:31.511+0000][gc,init] CPUs: 2 total, 2 available
+[2023-12-08T15:26:31.511+0000][gc,init] Memory: 7929M
+[2023-12-08T15:26:31.511+0000][gc,init] Large Page Support: Disabled
+[2023-12-08T15:26:31.511+0000][gc,init] NUMA Support: Disabled
+[2023-12-08T15:26:31.511+0000][gc,init] Compressed Oops: Enabled (32-bit)
+[2023-12-08T15:26:31.511+0000][gc,init] Heap Region Size: 1M
+[2023-12-08T15:26:31.511+0000][gc,init] Heap Min Capacity: 1G
+[2023-12-08T15:26:31.511+0000][gc,init] Heap Initial Capacity: 1G
+[2023-12-08T15:26:31.511+0000][gc,init] Heap Max Capacity: 1G
+[2023-12-08T15:26:31.511+0000][gc,init] Pre-touch: Disabled
+[2023-12-08T15:26:31.511+0000][gc,init] Parallel Workers: 2
+[2023-12-08T15:26:31.511+0000][gc,init] Concurrent Workers: 1
+[2023-12-08T15:26:31.511+0000][gc,init] Concurrent Refinement Workers: 2
+[2023-12-08T15:26:31.511+0000][gc,init] Periodic GC: Disabled
+[2023-12-08T15:26:31.518+0000][gc,metaspace] CDS archive(s) mapped at: [0x00007f5b67000000-0x00007f5b67bc6000-0x00007f5b67bc6000), size 12345344, SharedBaseAddress: 0x00007f5b67000000, ArchiveRelocationMode: 1.
+[2023-12-08T15:26:31.518+0000][gc,metaspace] Compressed class space mapped at: 0x00007f5b68000000-0x00007f5ba8000000, reserved size: 1073741824
+[2023-12-08T15:26:31.518+0000][gc,metaspace] Narrow klass base: 0x00007f5b67000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2023-12-08T15:26:34.021+0000][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2023-12-08T15:26:34.022+0000][gc,task     ] GC(0) Using 2 workers of 2 for evacuation
+[2023-12-08T15:26:34.035+0000][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.4ms
+[2023-12-08T15:26:34.035+0000][gc,phases   ] GC(0)   Merge Heap Roots: 0.1ms
+[2023-12-08T15:26:34.035+0000][gc,phases   ] GC(0)   Evacuate Collection Set: 12.6ms
+[2023-12-08T15:26:34.035+0000][gc,phases   ] GC(0)   Post Evacuate Collection Set: 0.7ms
+[2023-12-08T15:26:34.035+0000][gc,phases   ] GC(0)   Other: 0.4ms
+[2023-12-08T15:26:34.035+0000][gc,heap     ] GC(0) Eden regions: 51->0(44)
+[2023-12-08T15:26:34.036+0000][gc,heap     ] GC(0) Survivor regions: 0->7(7)
+[2023-12-08T15:26:34.036+0000][gc,heap     ] GC(0) Old regions: 0->0
+[2023-12-08T15:26:34.036+0000][gc,heap     ] GC(0) Archive regions: 2->2
+[2023-12-08T15:26:34.036+0000][gc,heap     ] GC(0) Humongous regions: 0->0
+[2023-12-08T15:26:34.036+0000][gc,metaspace] GC(0) Metaspace: 19464K(19648K)->19464K(19648K) NonClass: 16888K(16960K)->16888K(16960K) Class: 2576K(2688K)->2576K(2688K)
+[2023-12-08T15:26:34.037+0000][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 51M->7M(1024M) 15.399ms
+[2023-12-08T15:26:34.037+0000][gc,cpu      ] GC(0) User=0.00s Sys=0.01s Real=0.02s
+[2023-12-08T15:26:34.046+0000][gc,heap,exit] Heap
+[2023-12-08T15:26:34.046+0000][gc,heap,exit]  garbage-first heap   total 1048576K, used 8783K [0x00000000c0000000, 0x0000000100000000)
+[2023-12-08T15:26:34.046+0000][gc,heap,exit]   region size 1024K, 9 young (9216K), 7 survivors (7168K)
+[2023-12-08T15:26:34.046+0000][gc,heap,exit]  Metaspace       used 19482K, committed 19648K, reserved 1114112K
+[2023-12-08T15:26:34.046+0000][gc,heap,exit]   class space    used 2578K, committed 2688K, reserved 1048576K
