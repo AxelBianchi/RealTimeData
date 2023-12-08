@@ -70,3 +70,18 @@
 [2023-12-08T13:32:14.238+0000][gc,marking  ] GC(2) Concurrent Cleanup for Next Mark
 [2023-12-08T13:32:14.247+0000][gc,marking  ] GC(2) Concurrent Cleanup for Next Mark 9.283ms
 [2023-12-08T13:32:14.247+0000][gc          ] GC(2) Concurrent Mark Cycle 22.032ms
+[2023-12-08T13:50:12.991+0000][gc,start    ] GC(3) Pause Young (Normal) (G1 Evacuation Pause)
+[2023-12-08T13:50:12.991+0000][gc,task     ] GC(3) Using 2 workers of 2 for evacuation
+[2023-12-08T13:50:12.998+0000][gc,phases   ] GC(3)   Pre Evacuate Collection Set: 0.5ms
+[2023-12-08T13:50:12.998+0000][gc,phases   ] GC(3)   Merge Heap Roots: 0.1ms
+[2023-12-08T13:50:12.998+0000][gc,phases   ] GC(3)   Evacuate Collection Set: 5.3ms
+[2023-12-08T13:50:12.998+0000][gc,phases   ] GC(3)   Post Evacuate Collection Set: 0.5ms
+[2023-12-08T13:50:12.998+0000][gc,phases   ] GC(3)   Other: 0.2ms
+[2023-12-08T13:50:12.998+0000][gc,heap     ] GC(3) Eden regions: 50->0(46)
+[2023-12-08T13:50:12.998+0000][gc,heap     ] GC(3) Survivor regions: 1->5(7)
+[2023-12-08T13:50:12.998+0000][gc,heap     ] GC(3) Old regions: 7->7
+[2023-12-08T13:50:12.998+0000][gc,heap     ] GC(3) Archive regions: 2->2
+[2023-12-08T13:50:12.998+0000][gc,heap     ] GC(3) Humongous regions: 129->129
+[2023-12-08T13:50:12.998+0000][gc,metaspace] GC(3) Metaspace: 32209K(32448K)->32209K(32448K) NonClass: 28398K(28544K)->28398K(28544K) Class: 3811K(3904K)->3811K(3904K)
+[2023-12-08T13:50:12.998+0000][gc          ] GC(3) Pause Young (Normal) (G1 Evacuation Pause) 187M->141M(1024M) 6.631ms
+[2023-12-08T13:50:12.998+0000][gc,cpu      ] GC(3) User=0.02s Sys=0.00s Real=0.01s
